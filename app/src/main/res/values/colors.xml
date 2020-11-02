@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#03174C</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="startBlue">#09c6df</color>
+    <color name="endBlue">#0bcce6</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="primarydark">#292b3d</color>
+    <color name="colorPrimaryRed">#a00e11</color>
+    <color name="colorPrimaryBlue">#232659</color>
+    <color name="colorPrimaryYellow">#F9E000</color>
+    <color name="colorPrimaryGrey">#DFE3EE</color>
+    <color name="colorPrimaryBg">#03174C</color>
+    <color name="colorGreen">#016703</color>
+
+
+
+</resources>

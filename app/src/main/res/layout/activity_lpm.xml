@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#ffffff"
+    tools:context=".KasiPermasbang.LpmActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/commToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolBarStyle"
+        tools:ignore="MissingConstraints"></androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="45dp"
+        android:paddingLeft="7dp"
+        android:hint="Search"
+        android:id="@+id/search_field"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:background="@drawable/rounded_grey_full_ellips"
+        android:layout_marginTop="70dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/datalist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:clipToPadding="true"
+        android:scrollbars="none" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/addPosting"
+        android:layout_margin="20dp"
+        app:fabSize="normal"
+        android:elevation="6dp"
+        android:backgroundTint="@color/colorGreen"
+        android:src="@drawable/ic_baseline_add_24"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

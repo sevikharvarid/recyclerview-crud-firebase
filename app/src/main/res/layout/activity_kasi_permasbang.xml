@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".KasiPermasbang.KasiPermasbangActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/commToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolBarStyle"
+        tools:ignore="MissingConstraints"></androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toBkm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="BKM"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toFkdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="FKDM"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="310dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toLDM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="LDM"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toFkrw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="FKRW"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toPokdar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="POKDAR"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toPSM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="PSM"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24" />
+
+        <TextView
+            android:id="@+id/toMub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="MUB"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

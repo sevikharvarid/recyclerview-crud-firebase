@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.projectversion1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp">
+        <activity android:name=".Lokasi.LokasiPostActivity"></activity>
+        <activity
+            android:name=".ViewDetails"
+            android:parentActivityName="" />
+        <activity android:name=".KasiKesos.KarangTarunaPostActivity" />
+        <activity
+            android:name=".KasiKesos.KarangTarunaActivity"
+            android:parentActivityName=".KasiKesos.KasiKesosActivity" />
+        <activity android:name=".KasiKesos.PKKPostActivity" />
+        <activity
+            android:name=".KasiKesos.PKKActivity"
+            android:parentActivityName=".KasiKesos.KasiKesosActivity" />
+        <activity
+            android:name=".KasiKesos.KasiKesosActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".PotensiWilayah.PotensiWilayahActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".PotensiWilayah.HutanBambuPostActivity" />
+        <activity
+            android:name=".PotensiWilayah.HutanBambuActivity"
+            android:parentActivityName=".PotensiWilayah.PotensiWilayahActivity" />
+        <activity
+            android:name=".Profile.ProfilActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".Profile.KondisiFisikPostActivity" />
+        <activity
+            android:name=".Profile.KondisiFisikActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity android:name=".Profile.TabelJumlahPegPPostActivity" />
+        <activity
+            android:name=".Profile.TabelJumlahPegPActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity android:name=".Profile.PendudukBerAgPostActivity" />
+        <activity
+            android:name=".Profile.PendudukBerAgActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity android:name=".Profile.SusunanKepPostActivity" />
+        <activity
+            android:name=".Profile.SusunanKepActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity android:name=".Profile.VisiMisiPostActivity" />
+        <activity
+            android:name=".Profile.VisiMisiActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity
+            android:name=".KasiPermasbang.KasiPermasbangActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".KasiPermasbang.PsmPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.PsmActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity android:name=".KasiPermasbang.PokdarPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.PokdarActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity android:name=".KasiPermasbang.MubPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.MubActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity android:name=".KasiPermasbang.LpmPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.LpmActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity android:name=".KasiPermasbang.FkrwPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.FkrwActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity android:name=".KasiPermasbang.FkdmPostActivity" />
+        <activity
+            android:name=".KasiPermasbang.FkdmActivity"
+            android:parentActivityName=".KasiPermasbang.KasiPermasbangActivity" />
+        <activity
+            android:name=".KasiPemtrantibum.KasiPemtrantibum"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".PotensiWilayah.ProklimPostActivity" />
+        <activity android:name=".InovasiPrestasi.InovasiPrestasiPostActivity" />
+        <activity
+            android:name=".InovasiPrestasi.InovasiPrestasiActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".KasiPemtrantibum.LinmasActivity"
+            android:parentActivityName=".KasiPemtrantibum.KasiPemtrantibum" />
+        <activity android:name=".KasiPemtrantibum.LinmasPostActivity" />
+        <activity
+            android:name=".Lokasi.LokasiActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".KasiPermasbang.BKMPostActivity" />
+        <activity android:name=".KasiKesos.PosyanduPostActivity" />
+        <activity
+            android:name=".KasiKesos.PosyanduActivity"
+            android:parentActivityName=".KasiKesos.KasiKesosActivity" />
+        <activity android:name=".Artikel.ArtikelPostActivity" />
+        <activity
+            android:name=".Artikel.ArtikelActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".PotensiWilayah.ProklimActivity"
+            android:parentActivityName=".PotensiWilayah.PotensiWilayahActivity" />
+        <activity android:name=".Profile.DemografiPostActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".KasiPermasbang.BKMActivity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".Profile.DemografiActivity"
+            android:parentActivityName=".Profile.ProfilActivity" />
+        <activity android:name=".ForgotActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

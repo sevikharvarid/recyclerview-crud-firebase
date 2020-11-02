@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/prf" android:title="Profile"/>
+<item android:id="@+id/art" android:title="Artikel"/>
+<item android:id="@+id/kpbang" android:title="Kasi Permasbang"/>
+<item android:id="@+id/kpbum" android:title="Kasi Pemratibum"/>
+<item android:id="@+id/kesos" android:title="Kasi Kesos"/>
+<item android:id="@+id/ip" android:title="Inovasi &amp; Prestasi"/>
+<item android:id="@+id/lok" android:title="Lokasi"/>
+<item android:id="@+id/wisata" android:title="Wisata"/>
+</menu>

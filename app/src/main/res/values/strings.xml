@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Farmbahanyu</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="link_ig"><a href="https://www.instagram.com/php2dffsuhamka/?hl=id">php2dffsuhamka</a></string>
+</resources>
